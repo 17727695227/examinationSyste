@@ -1,0 +1,39 @@
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.2//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+        
+ <validators>
+ 
+     <field name="school">       
+          <field-validator type="requiredstring">
+              <message key="school.invoked"></message>             
+          </field-validator>
+     </field>
+     <field name="username">
+          <field-validator type="requiredlong">
+             <message key="number.invoked"></message>
+          </field-validator>          
+    </field>
+    <field name="name">
+         <field-validator type="requiredstring">
+            <message key="name.invoed"></message>           
+         </field-validator>
+         <field-validator type="stringlength">
+             <param name="minLength">4</param>
+             <param name="maxLength">10</param>
+              <message key="name.length.invoked"></message>
+          </field-validator>
+    </field>
+    <field name="password">
+         <field-validator type="requiredstring">
+               <message key="password.invoked"></message>
+         </field-validator>
+         <field-validator type="stringlength">
+                <param name="minLength">6</param>
+                <param name="maxLength">10</param>
+                <message key="password.length.invoked"></message>
+         </field-validator>
+
+    </field>
+     
+ </validators>       

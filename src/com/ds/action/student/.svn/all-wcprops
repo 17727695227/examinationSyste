@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/action/student
+END
+SelectResultAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/action/student/SelectResultAction.java
+END
+AllPaperResultAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/action/student/AllPaperResultAction.java
+END
+CheckPaperAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/exam22/!svn/ver/162/trunk/src/com/ds/action/student/CheckPaperAction.java
+END
+SelectPaperAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/action/student/SelectPaperAction.java
+END

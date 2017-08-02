@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    <hibernate-mapping>
+         
+         <class name="com.ds.model.AllDatabase" table="alldatabase">
+              
+                <id name="id" column="id" type="string">
+                   <generator class="uuid"></generator>
+              </id>
+                
+              <property name="section" column="section" type="string"></property>
+              <property name="question" column="question" type="string"></property>             
+              <property name="result" column="result" type="string"></property>
+              
+              <!-- 
+              <set name="finishDatabase" cascade="all">
+                   <key column="allData_id"></key>
+                   <one-to-many class="com.ds.model.FinishDatabase"/>                   
+              </set> 
+               -->
+             
+
+              <set name="answers"  cascade="all" lazy="false" inverse="true">
+
+                   <key column="allData_id"></key>
+                   <one-to-many class="com.ds.model.Answer"/>                   
+              </set>   
+              
+               
+       </class>
+            
+    </hibernate-mapping>
+
+
+

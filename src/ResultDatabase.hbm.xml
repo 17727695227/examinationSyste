@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+
+       <class name="com.ds.model.ResultDatabase" table="resultdatabase">        
+          <id name="id" column="id" type="string">
+             <generator class="uuid"></generator>
+          </id>
+          <property name="clas" column="clas" type="string"></property>         
+          <property name="username" column="username" type="long"></property>
+          <property name="section" column="section" type="string"></property>
+          <property name="done" column="done" type="string"></property>
+          <property name="chooseScore" column="chooseScore" type="integer"></property>
+          <property name="blankScore" column="blankScore" type="integer"></property>
+          <property name="startTime" column="startTime" type="timestamp"></property>
+          <property name="stopTime" column="stopTime" type="timestamp"></property>
+          <property name="useTime" column="useTime" type="timestamp"></property>
+          <property name="rightNumber" column="rightNumber" type="integer"></property>
+          <property name="totalScore" column="totalScore" type="integer"></property>
+          <property name="pass" column="pass" type="string"></property>
+          
+          <many-to-one name="student" column="student_id" class="com.ds.model.Student" cascade="none" fetch="join">
+          </many-to-one>
+          
+       </class>
+
+</hibernate-mapping>

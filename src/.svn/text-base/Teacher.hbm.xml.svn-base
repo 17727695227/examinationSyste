@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+          
+<hibernate-mapping>
+
+       <class name="com.ds.model.Teacher" table="teacher">
+       
+          <id name="id" column="id" type="string">
+             <generator class="uuid"></generator>
+          </id>
+          
+          <property name="username" column="username" type="long"></property>
+          <property name="password" column="password" type="string"></property>
+          <property name="name" column="name" type="string"></property>
+          <property name="clas1" column="clas1" type="string"></property>
+          <property name="clas2" column="clas2" type="string"></property>
+          
+       </class>
+
+</hibernate-mapping>

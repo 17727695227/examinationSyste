@@ -1,0 +1,10 @@
+school.invoked=school con't blank!
+number.invoked=number con't blank!
+name.invoed=name con't blank!
+password.invoked=password con't blank!
+repassword.invoked=repassword con't blank!
+
+number.length.invoked=length of number should be between 8 and 10!
+name.length.invoked=length of name should be between 2 and 5!
+password.length.invoked=length of password should be between 8 and 10!
+repassword.length.invoked=length of repassword should be between 8 and 10\!

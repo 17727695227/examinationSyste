@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+.check_left{
+	float: left;
+	position: absolute;
+	top:40px;
+	left: 110px;
+	width:240px;
+}
+
+.check_right{
+	float: left;
+	height: 430px;
+	position: absolute;
+	top:40px;
+	left: 400px;
+	overflow:auto;
+	color: black;
+}
+
+.ttxxtt{
+	height: 37px;
+	width: 190px;
+	font-size: 15px;
+}
+
+.ttaabb{
+	margin-top:20px; 
+}
+
+.ttaabb tr td{
+	width: 90px;
+}

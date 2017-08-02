@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    <hibernate-mapping>
+         
+         <class name="com.ds.model.FinishDatabase" table="finishdatabase">
+              
+                <id name="id" column="id" type="string">
+                   <generator class="uuid"></generator>
+              </id>
+                
+              <property name="section" column="section" type="string"></property>
+              <property name="question" column="question" type="string"></property>
+              <property name="A" column="A" type="string"></property>
+              <property name="B" column="B" type="string"></property>
+              <property name="C" column="C" type="string"></property>
+              <property name="D" column="D" type="string"></property>
+              <property name="anwser" column="anwser" type="string"></property>
+              <property name="result" column="result" type="string"></property>
+              <property name="torf" column="torf" type="string"></property>
+              <property name="username" column="username" type="long"></property>
+              
+              <!-- 
+              <many-to-one name="student" column="student_id" class="com.ds.model.Student" cascade="none" fetch="join">
+              </many-to-one>
+              -->
+             
+       </class>
+            
+    </hibernate-mapping>
+
+
+

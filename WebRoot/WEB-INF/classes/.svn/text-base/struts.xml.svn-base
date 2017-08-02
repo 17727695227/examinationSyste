@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+   <package name="exam" extends="struts-default">
+     
+     <!-- @yangzeng -->
+     
+     <interceptors>
+     
+          <interceptor name="loginInterceptor" class="com.ds.util.LoginInterceptor">
+          </interceptor>
+           
+          <interceptor-stack name="myDefaultInterceptorStack">
+                     <interceptor-ref name="loginInterceptor"></interceptor-ref> 
+              <interceptor-ref name="defaultStack"></interceptor-ref>
+          </interceptor-stack>           
+     </interceptors>
+     
+     <default-interceptor-ref name="myDefaultInterceptorStack">
+     </default-interceptor-ref>
+     
+     <global-results>
+         <result name="login">/jsp/student/error.jsp</result> 
+     </global-results>
+     
+     <action name="login" class="com.ds.action.login.LoginAction">
+       <result name="success">/jsp/student/main.jsp</result>
+       <result name="error">/jsp/teacher/main.jsp</result>
+       <result name="input">/jsp/login/login.jsp</result> 
+     </action>
+     
+
+     <action name="randPic" class="com.ds.action.login.RandomAction">        
+        <result type="stream">        
+          <param name="contentType">image/jpeg</param>        
+          <param name="inputName">inputStream</param>        
+        </result>   
+     </action>
+     
+     <action name="studentDetailedInfo" class="com.ds.action.userinfo.StudentDetailedInfoAction">
+       <result name="success">/jsp/student/information.jsp</result>
+     </action>
+     
+     <action name="studentUpdate" class="com.ds.action.userinfo.StudentUpdateAction">
+       <result name="success" type="redirectAction">
+           <param name="actionName">studentDetailedInfo</param>
+        </result> 
+     </action>
+     
+     <action name="selectPaper" class="com.ds.action.student.SelectPaperAction">
+       <result name="success">/jsp/student/catalogue-st.jsp</result> 
+        <result name="input">/jsp/student/warning.jsp</result>  
+        <result name="error">/jsp/student/warning2.jsp</result> 
+     </action>
+     
+     <action name="checkPaper" class="com.ds.action.student.CheckPaperAction">
+       <result name="success" type="redirectAction">
+           <param name="actionName">selectResult</param>
+           <param name="section">${section}</param>
+        </result>
+     </action>
+     
+     <action name="selectResult" class="com.ds.action.student.SelectResultAction">
+       <result name="success">/jsp/student/catalogue-result.jsp</result> 
+     </action>
+     
+     <action name="allPaperResult" class="com.ds.action.student.AllPaperResultAction">
+       <result name="success">/jsp/student/examResult.jsp</result> 
+     </action>
+           
+     <!-- @huangzhiwei -->
+     
+     <action name="register" class="com.ds.action.register.RegisterAction">
+         <result name="success" type="redirect">/jsp/login/login.jsp</result>
+         <result name="input" type="redirect">/jsp/student/register.jsp</result>
+     
+     </action>
+     
+      <action name="information" class="com.ds.action.teacher.InforTeacherAction">
+         <result name="success">/jsp/teacher/info.jsp</result>
+         <result name="input" type="redirect">/jsp/student/register.jsp</result>
+     
+     </action>
+     
+     <action name="updateteacher" class="com.ds.action.teacher.UpdateTeacherAction">
+         <result name="success">/jsp/teacher/info.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/info.jsp</result>
+     </action>
+     <action name="deleteDatabase" class="com.ds.action.teacher.DeleteDatabaseAction">
+          <result name="success">/jsp/teacher/scan1.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/scan1.jsp</result>
+              
+     </action>
+      <action name="deleteBlank" class="com.ds.action.teacher.DeleteBlankAction">
+          <result name="success">/jsp/teacher/scan1.jsp</result>
+         <result name="input">/jsp/teacher/scan1.jsp</result>
+              
+     </action>
+     
+     <action name="inputDatabase" class="com.ds.action.teacher.InputDatabaseAction">
+          <result name="success" type="redirect">/jsp/teacher/singleChoice.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/singleChoice.jsp</result>
+              
+     </action>
+      
+     <action name="inputBlank" class="com.ds.action.teacher.InputDatabaseAction" method="inputBlank">
+          <result name="success" type="redirect">/jsp/teacher/modifyBlankfilling.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/modifyBlankfilling.jsp</result>
+              
+     </action>
+     <action name="allInput" class="com.ds.action.teacher.AllInputAction">
+          <result name="success">/jsp/teacher/scan1.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/modifyBlankfilling.jsp</result>
+              
+     </action>
+     
+      <action name="allList" class="com.ds.action.teacher.AllListAction">
+         <result name="success">/jsp/teacher/scan1.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/scan1.jsp</result>
+     </action>
+     <action name="check_result" class="com.ds.action.teacher.SectionDatabaseAction">
+         <result name="success">/jsp/teacher/input.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/input.jsp</result>
+     </action>
+     
+     <action name="OutputExcel" class="com.ds.excel.OutputExcel">
+         <result name="success">/jsp/teacher/check.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/check.jsp</result>
+     </action>
+     <action name="class_check" class="com.ds.action.teacher.ClassCheckAction">
+         <result name="success">/jsp/teacher/check.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/check.jsp</result>
+     </action>
+     <action name="totalScore" class="com.ds.action.teacher.SortTotalScoerAction">
+         <result name="success">/jsp/teacher/check.jsp</result>
+         <result name="input" type="redirect">/jsp/teacher/check.jsp</result>
+     </action>
+    
+     <!-- 测试用 -->
+     <action name="check" class="com.ds.wetfront.MyAction">
+         <result name="success">/index.jsp</result>
+         <result name="input">/register.jsp</result>
+     </action>
+     
+                 
+   </package>
+   
+</struts>

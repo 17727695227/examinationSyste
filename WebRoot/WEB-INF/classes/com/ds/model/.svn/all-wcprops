@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/model
+END
+BlankDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/exam22/!svn/ver/166/trunk/src/com/ds/model/BlankDatabase.java
+END
+FinishDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/model/FinishDatabase.java
+END
+Answer.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/102/trunk/src/com/ds/model/Answer.java
+END
+AllDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/exam22/!svn/ver/128/trunk/src/com/ds/model/AllDatabase.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/134/trunk/src/com/ds/model/Student.java
+END
+ResultDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/model/ResultDatabase.java
+END
+Teacher.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/75/trunk/src/com/ds/model/Teacher.java
+END
+Hibernate.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/exam22/!svn/ver/180/trunk/src/com/ds/model/Hibernate.java
+END

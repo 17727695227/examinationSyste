@@ -1,0 +1,163 @@
+@CHARSET "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.main{
+	background-color:#777;
+	width:100%;
+}
+
+
+
+.head{
+	overflow:hidden;
+	background-color: #6F5499;
+	border-bottom:4px solid #CCC;
+}
+
+.logo{
+	margin-left: 60px;	
+	float: left;
+}
+
+.index{
+	float: left;
+	height:83px;
+	line-height:83px;
+	margin-left:30px;
+	color: #FFF;
+    text-align: center;
+}
+
+.index li{
+	float: left;
+	list-style: none;
+	width: 130px;
+}
+
+.index a{
+	color: #FFF;
+	font-size: 16px;
+	height: 83px;
+	line-height: 83px;
+	padding: 0 20px;
+	position: relative;
+	text-decoration: none;
+	font-family: "微软雅黑";
+}
+
+.index li a:HOVER {
+	cursor: pointer;
+	color: #AAA;
+}
+
+.exit{
+	float:right;
+	width: 200px;
+	height: 83px;
+	text-align: center;
+	line-height: 83px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.exit a{
+	text-decoration: none;
+	color: #AAA;
+}
+
+.back{
+	float:right;
+	height: 83px;
+	text-align: center;
+	line-height: 83px;
+	margin-right:90px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+.back a{
+	text-decoration: none;
+	color: #AAA;
+}
+
+.back a:HOVER {
+	color: #cc3299;
+}
+
+
+
+
+
+.body{
+	margin: 0 auto;
+	width:78%;
+	margin-top:0px;
+	overflow: hidden;
+	height:500px;
+	background-image: url(../../photo/student/bg.jpg);
+	position: relative;
+}
+
+.body div:HOVER{
+	cursor: pointer;
+}
+
+.photo1{
+	margin-left:35px;
+	position: absolute;
+	top:100px;
+	
+}
+
+.photo2{
+    position: absolute;
+    top:100px;
+    left:375px;
+}
+
+.photo3{
+	position: absolute;
+	top:100px;
+	left: 715px;
+}
+
+
+
+ 
+
+.buttom{
+	height: 11%;
+	background-color:#FFF;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-align: center;
+	color:#666dfb;
+	line-height: 60px;
+}
+
+
+
+
+
+
+.body div:HOVER{
+	cursor: pointer;
+}
+.teacher1_body{
+	background-color: #777;
+}
+
+.teacher_body{
+	margin: 0 auto;
+	width:78%;
+	margin-top:0px;
+	overflow: hidden;
+	height:500px;
+	background-image: url(../../photo/teacher/teacher.png);
+	position: relative;
+	
+}

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher
+END
+check.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/check.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/140/trunk/WebRoot/jsp/teacher/main.jsp
+END
+singleChoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/singleChoice.jsp
+END
+input.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/input.jsp
+END
+jquery-ui.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/exam22/!svn/ver/100/trunk/WebRoot/jsp/teacher/jquery-ui.js
+END
+blankFilling.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/blankFilling.jsp
+END
+scan.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/scan.jsp
+END
+info.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/174/trunk/WebRoot/jsp/teacher/info.jsp
+END
+jquery-ui.css
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/exam22/!svn/ver/189/trunk/WebRoot/jsp/teacher/jquery-ui.css
+END
+modifySinglechoice.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/modifySinglechoice.jsp
+END
+scan1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/scan1.jsp
+END
+modifyBlankfilling.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/exam22/!svn/ver/190/trunk/WebRoot/jsp/teacher/modifyBlankfilling.jsp
+END

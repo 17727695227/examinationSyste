@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/exam22/!svn/ver/187/trunk/src/com/ds/util
+END
+LoginInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/exam22/!svn/ver/186/trunk/src/com/ds/util/LoginInterceptor.java
+END
+TestData.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/util/TestData.java
+END
+TimeDifference.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/exam22/!svn/ver/183/trunk/src/com/ds/util/TimeDifference.java
+END
+HibernateUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/exam22/!svn/ver/17/trunk/src/com/ds/util/HibernateUtil.java
+END
+CreateTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/exam22/!svn/ver/187/trunk/src/com/ds/util/CreateTable.java
+END

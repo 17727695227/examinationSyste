@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width:100%;
+	background:#F5F5F5;
+}
+
+.questions{
+	width:70%;
+	//height:2900px;
+	top:80px;
+	left:15%;
+	background:white;
+	position:relative;
+}
+
+.captitle{
+	width:100%;
+	height:50px;
+	background:gray;
+	color:white;
+	font-size:20px;
+	line-height:50px;
+	//text-align:center;
+	position: relative;
+}
+
+.tips{
+	margin:auto;
+	width:96%;
+	height:200px;
+	margin-top:20px;
+	background:#F5F5F5;
+	position: relative;
+}
+
+.intips{
+	left:2%;
+	top:15px;
+	float:left;
+	width:60%;
+	font-size:14px;
+	//background:red;
+	position: relative;
+}
+
+.thegrade{
+	width:110px;
+	height:110px;
+	float:right;
+	font-size:40px;
+	color:red;
+	text-align:center;
+	line-height:92px;
+	background-image: url(../../photo/student/grade.PNG);
+	position: relative;
+}
+
+.rows,.sprs{
+	width:50%;
+	height:24px;
+	position: relative;
+}
+
+.sprs{
+	color:red;
+}
+
+.partone,.parttwo{
+	margin:auto;
+	width:96%;
+	height:45px;
+	border:1px solid rgba(0,0,0,0.2);
+	margin-top:20px;
+	background:#F5F5F5;
+}
+
+.partonet,.parttwot{
+	border-right:1px solid rgba(0,0,0,0.2);
+}
+
+.partonet,.partoneb,.parttwot,.parttwob{
+	width:150px;
+	height:38px;
+	font-size:13px;
+	line-height:38px;
+}
+
+.questionpartone,.questionparttwo,.questionpartoneR,.questionparttwoR{
+	margin:auto;
+	width:96%;
+	height:200px;
+	font-size:13px;
+	margin-top:20px;
+	//background:pink;
+}
+
+.questionpartoneR{
+	height:220px;
+}
+
+.questionparttwo{
+	height:160px;
+}
+
+.questiononediv,.questiontwodiv{
+	width:100%;
+	height:52px;
+	font-size:14px;
+	background:#F5F5F5;
+}
+
+.questiontwodiv{
+	height:100px;
+}
+
+.inquestiononediv,.inquestiontwodiv{
+	font-weight:600;
+	margin-bottom:4px;
+}
+
+.select{
+	margin-top:10px;
+	margin-left:13px;
+	margin-right:5px;
+}
+
+.myanswer{
+	width:150px;
+	height:30px;
+	border:0px;
+	border-bottom:1px solid rgba(0,0,0,1);
+	background:transparent;
+}
+
+.examsubmit{
+	width:16%;
+	height:35px;
+	font-size:15px;
+	background:white;
+	border:1px solid rgba(0,0,0,0.4);
+	margin-top:50px;
+	margin-left:41%;
+}
+
+.examsubmit:hover{
+	cursor:pointer;
+	background:rgba(0,0,0,0.1);
+}
+
+.theend{
+	width:100%;
+	height:80px;
+	//background:red;
+}
+
+.theresult{
+	display:block;
+	height:22px;
+	line-height:22px;
+	margin-top:4px;
+	color:#16AB16;
+	//background:gray;
+}
+
+
+

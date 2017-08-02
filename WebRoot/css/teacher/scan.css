@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+.scan_center{
+	margin-top:0px;
+	overflow: hidden;
+	height:500px;
+	position: relative;
+}
+
+.center{
+    border-bottom:1px solid #BBB;
+}
+
+.nav{
+	float: left;
+	position: absolute;
+	top:40px;
+	left: 110px;
+	width:240px;
+}
+
+.scan_table{
+	float: left;
+	height: 430px;
+	position: absolute;
+	top:40px;
+	left: 400px;
+	overflow:auto;
+	color: black;
+}
+
+
+.scan_table table tr td{
+	width: 150px;
+	height: 26px;
+}
+
+.input{
+	border:0px;
+}
+
+#tab tr td{
+	width: 450px;
+}
+
+#b{
+	float: right; 
+	margin-right: 20px;
+	margin-top: 10px;
+	width: 120px;
+    height:40px;
+}
+
+#te tr{
+	border-bottom: 1px solid #CCC;
+}
+
+#te tr td{
+	font-size:15px;
+	width: 150px;
+}
+
+#te tr td input{
+	border:0px;
+}
+
+#form{
+	border:0px;
+	width: 120px;
+}
+
+tbody{
+	font-size: 15px;
+}
+
+#form1{
+	width: 35px;
+	background-color: white;
+	border: 0px;
+}
+
+#form2{
+	border: 0px;
+	background-color: #F5f5f5;
+	width: 120px;
+}
+
+#form3{
+	width: 35px;
+	background-color: #F5f5f5;
+	border: 0px;
+}
+
+#form4{
+	border: 0px;
+	background-color: #DFF0D8;
+	width: 120px;
+}
+
+#form5{
+	width: 35px;
+	background-color: #DFF0D8;
+	border: 0px;
+}
+
+#form6{
+	border: 0px;
+	background-color: #FCF8E3;
+	width: 120px;
+}
+
+#form7{
+	width: 35px;
+	background-color:#FCF8E3;
+	border: 0px;
+}
+
+#form8{
+	border: 0px;
+	background-color: #F2DEDE;
+	width: 120px;
+}
+
+#form9{
+	width: 35px;
+	background-color:#F2DEDE;
+	border: 0px;
+}

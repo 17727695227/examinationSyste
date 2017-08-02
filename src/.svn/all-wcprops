@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/exam22/!svn/ver/194/trunk/src
+END
+Teacher.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/exam22/!svn/ver/75/trunk/src/Teacher.hbm.xml
+END
+hibernate.cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/exam22/!svn/ver/187/trunk/src/hibernate.cfg.xml
+END
+ResultDatabase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/exam22/!svn/ver/183/trunk/src/ResultDatabase.hbm.xml
+END
+Student.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/exam22/!svn/ver/134/trunk/src/Student.hbm.xml
+END
+AllDatabase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/exam22/!svn/ver/163/trunk/src/AllDatabase.hbm.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/exam22/!svn/ver/194/trunk/src/struts.xml
+END
+FinishDatabase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/exam22/!svn/ver/177/trunk/src/FinishDatabase.hbm.xml
+END
+Answer.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/exam22/!svn/ver/119/trunk/src/Answer.hbm.xml
+END
+BlankDatabase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/exam22/!svn/ver/131/trunk/src/BlankDatabase.hbm.xml
+END

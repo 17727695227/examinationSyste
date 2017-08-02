@@ -1,0 +1,73 @@
+package com.ds.dao.impl;
+
+import java.sql.Timestamp;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.apache.struts2.ServletActionContext;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.ds.dao.ResultDatabaseDAO;
+import com.ds.model.ResultDatabase;
+import com.ds.model.Student;
+import com.ds.service.StudentService;
+import com.ds.service.TecherService;
+import com.ds.service.impl.StudentServiceImpl;
+import com.ds.service.impl.TeacherCheckServicImpl;
+import com.ds.service.impl.TecherServiceImpl;
+import com.ds.util.HibernateUtil;
+import com.ds.util.TimeDifference;
+
+public class ResultDatabaseDAOImpl implements ResultDatabaseDAO {
+
+	@Override
+	public void updateResultDatabase(int chooseScore, int blankScore, String section) {
+		Session session = HibernateUtil.openSession();
+		Transaction tx = session.beginTransaction();
+		try {
+			// 拿到学生个人信息
+			HttpServletRequest request = ServletActionContext.getRequest();
+			HttpSession httpSession = request.getSession();
+			StudentService userService = new StudentServiceImpl();
+			String id = ((Student) httpSession.getAttribute("studentInfo"))
+					.getId();
+			Student student = userService.getSingleStudentById(id);
+
+			// 将预设的考试结果从resultDatabase查出来
+			TecherService teacherService = new TecherServiceImpl();
+			List<ResultDatabase> list =  teacherService.usernameSection(student.getUsername(), section);
+			ResultDatabase resultDatabase = list.get(0);
+			
+			// 将处理好的考试结果更新进resultDatabase
+			resultDatabase.setDone("已考试");
+			resultDatabase.setChooseScore(chooseScore*10);
+			resultDatabase.setBlankScore(blankScore*10);
+			
+			// 算时间
+			resultDatabase.setStartTime((Timestamp)httpSession.getAttribute("startTime"));
+			resultDatabase.setStopTime((Timestamp)httpSession.getAttribute("stopTime"));
+			String pass = TimeDifference.getTimeDifference((Timestamp)httpSession.getAttribute("startTime"), (Timestamp)httpSession.getAttribute("stopTime")); 
+			resultDatabase.setPass(pass);
+			
+			resultDatabase.setRightNumber(chooseScore+blankScore);
+			resultDatabase.setTotalScore(chooseScore*10+blankScore*10);
+			
+			session.update(resultDatabase);
+			tx.commit();
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			if (null != tx) {
+				tx.rollback();
+			}
+		} finally {
+			HibernateUtil.close(session);
+		}
+	}
+
+}

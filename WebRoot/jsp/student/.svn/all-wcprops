@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/exam22/!svn/ver/182/trunk/WebRoot/jsp/student/error.jsp
+END
+main.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/178/trunk/WebRoot/jsp/student/main.jsp
+END
+catalogue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/catalogue.jsp
+END
+information.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/information.jsp
+END
+examResult.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/examResult.jsp
+END
+warning.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/warning.jsp
+END
+catalogue-result.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/catalogue-result.jsp
+END
+register.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/exam22/!svn/ver/176/trunk/WebRoot/jsp/student/register.jsp
+END
+catalogue-st.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/exam22/!svn/ver/179/trunk/WebRoot/jsp/student/catalogue-st.jsp
+END
+wait.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/exam22/!svn/ver/176/trunk/WebRoot/jsp/student/wait.jsp
+END
+warning2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/exam22/!svn/ver/183/trunk/WebRoot/jsp/student/warning2.jsp
+END

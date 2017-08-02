@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/exam22/!svn/ver/187/trunk/src/com/ds/dao
+END
+TeacherDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/dao/TeacherDAO.java
+END
+CheckPaperDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/exam22/!svn/ver/162/trunk/src/com/ds/dao/CheckPaperDAO.java
+END
+TeacherCheckDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/exam22/!svn/ver/161/trunk/src/com/ds/dao/TeacherCheckDAO.java
+END
+ResultDatabaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/dao/ResultDatabaseDAO.java
+END
+StudentDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/exam22/!svn/ver/107/trunk/src/com/ds/dao/StudentDAO.java
+END
+FinishDatabaseDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/exam22/!svn/ver/167/trunk/src/com/ds/dao/FinishDatabaseDAO.java
+END
+SelectPaperDAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/exam22/!svn/ver/166/trunk/src/com/ds/dao/SelectPaperDAO.java
+END

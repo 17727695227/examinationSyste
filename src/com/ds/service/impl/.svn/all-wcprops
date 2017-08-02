@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/service/impl
+END
+ResultDatabaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/service/impl/ResultDatabaseServiceImpl.java
+END
+StudentServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/exam22/!svn/ver/107/trunk/src/com/ds/service/impl/StudentServiceImpl.java
+END
+FinishDatabaseServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/exam22/!svn/ver/167/trunk/src/com/ds/service/impl/FinishDatabaseServiceImpl.java
+END
+TeacherCheckServicImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/exam22/!svn/ver/161/trunk/src/com/ds/service/impl/TeacherCheckServicImpl.java
+END
+SelectPaperServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/exam22/!svn/ver/166/trunk/src/com/ds/service/impl/SelectPaperServiceImpl.java
+END
+TecherServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/exam22/!svn/ver/177/trunk/src/com/ds/service/impl/TecherServiceImpl.java
+END
+CheckPaperServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/exam22/!svn/ver/162/trunk/src/com/ds/service/impl/CheckPaperServiceImpl.java
+END

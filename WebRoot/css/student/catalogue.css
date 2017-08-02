@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+
+.cataloguebody,.eRbody{
+				margin: 0 auto;
+				width:78%;
+				margin-top:0px;
+				overflow: hidden;
+				height:500px;
+				background:#F7F7F7;
+				position: relative;
+}
+
+.incbodys,.inebodys{
+	margin:0 auto;
+	width:80%;
+	height:130px;
+	margin-top:25px;
+	//background:pink;
+	position: relative;
+	margin-top:35px;
+}
+.inebodys{
+	height:136px;
+	margin-top:30px;
+}
+
+.allgrades,.mygrades{
+	width:120px;
+	height:130px;
+	background-image: url(../../photo/student/catalogue.PNG);
+	float:left;
+	position: relative;
+}
+
+.mygrades{
+	width:115px;
+	height:136px;
+    background-image: url(../../photo/student/examresult.jpg);
+}
+
+.all,.my{
+	font-size:25px;
+	color:#6F5499;
+	top:20px;
+	left:35px;
+	position: relative;
+}
+
+.my{
+	left:8px;
+}
+
+.grade,.grades{
+	font-size:40px;
+	color:#6F5499;
+	top:25px;
+	left:28px;
+	position: relative;
+}
+
+.grades{
+	color:red;
+}
+
+.everychapters,.eRtable{
+	width:58%;
+	height:130px;
+	font-size:14px;
+	color:black;
+    //background:gray;
+	float:left;
+	margin-left:25px;
+	position:relative;
+}
+
+.eRtable{
+	border:0px;
+	height:136px;
+	padding-top:6px;
+}
+
+.infirst{
+	color:#6F5499;
+	position:absolute;
+	top:10px;
+}
+
+.insecond,.inthird,.infour{
+	position:absolute;
+	opacity:0.5;
+}
+
+.insecond{	
+	top:34px;
+}
+
+.inthird{
+	top:60px;
+	
+}
+
+.infour{
+	top:84px;
+}
+
+
+.beginexams{
+	width:15%;
+	height:130px;
+	//background:pink;
+	float:left;
+	position:relative;
+}
+
+.beginexams a{
+	left:10px;
+	top:20px;
+	text-decoration: none;
+	position:relative;
+}
+.beginexam{
+	color:#6F5499;
+	font-size:16px;
+	line-height:36px;
+}
+
+.warn{
+	color:red;
+}
+
+
+.eRfirst,.eRsecond{
+	width:55%;
+	height:25px;
+	line-height:25px;
+	color:#6F5499;
+	border:0px;
+	//background:green;
+	position:relative;
+}
+
+.eRsecond{
+	color:black;
+}
+
+.eRdoit{
+	width:15%;
+	height:130px;
+	font-size:18px;
+	text-align:center;
+	line-height:130px;
+	color:red;
+	//background:green;
+	float:left;
+	margin-left:5px;
+	position:relative;
+}
+
+
+
+
+
