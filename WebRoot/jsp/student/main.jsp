@@ -46,7 +46,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                   <div class="photo3" onclick="jump3();"><img src="photo/student/photo3.png"></div>
          </div>
          <div class="buttom">
-             @jocel
+             广东工业大学数据结构与可视化计算工作室
          </div>
      </div>
      

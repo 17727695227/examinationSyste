@@ -1,21 +1,19 @@
 package com.ds.excel;
 
+import java.io.BufferedOutputStream;
 import java.io.IOException;
-import java.io.BufferedOutputStream;  
-import java.io.OutputStream;  
-import java.util.ArrayList;  
-import java.util.Date;
-import java.util.List;    
+import java.io.OutputStream;
+import java.util.List;
 
-import javax.servlet.http.HttpServletResponse;  
+import javax.servlet.http.HttpServletResponse;
 
-import org.apache.poi.hssf.usermodel.HSSFCell;  
-import org.apache.poi.hssf.usermodel.HSSFCellStyle;  
-import org.apache.poi.hssf.usermodel.HSSFFont;  
-import org.apache.poi.hssf.usermodel.HSSFRichTextString;  
-import org.apache.poi.hssf.usermodel.HSSFRow;  
-import org.apache.poi.hssf.usermodel.HSSFSheet;  
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;  
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFCellStyle;
+import org.apache.poi.hssf.usermodel.HSSFFont;
+import org.apache.poi.hssf.usermodel.HSSFRichTextString;
+import org.apache.poi.hssf.usermodel.HSSFRow;
+import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.struts2.ServletActionContext;
 
 import com.ds.model.ResultDatabase;
